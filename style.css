@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #modules {
+    margin-bottom: 20px;
+  }
+  
+  .module {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .module input[type="text"],
+  .module input[type="number"] {
+    width: calc(100% - 22px); /* Réduire la largeur et prendre en compte le padding */
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .module-courses {
+    margin-top: 10px;
+  }
+  
+  .course {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  /* Media queries pour les téléphones */
+  @media screen and (max-width: 600px) {
+    .module input[type="text"],
+    .module input[type="number"] {
+      width: calc(100% - 16px); /* Réduire la largeur et prendre en compte le padding */
+      padding: 6px;
+    }
+  }
+  
